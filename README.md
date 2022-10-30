@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Motion: Social Media App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Focused on React & Redux, we built social media application called "Motion". Users can upload posts with images, connect with friends, or follow the other users and like posts. They can also see their own profile page or the other users' profile pages.
+
+My task was creating the login page and the registration/validation page, fetching data from the API.
+- Login page: when an existing user submits their email & password, the API returns an access and refresh token. The tokens were stored in the Redux store.
+- Registration page: New users can submit their email address and after hitting the "Submit" button, the API will save this user's email and mark it as "in-active". The user will be redirected to the validation page. 
+- Validation page: Notifies user that email submission was successful. The user will receive a validation code by email. The user can navigate to the verification page.
+- Verification page: User can submit validation code and basic profile info such as username, first name, last name and password.
 
 ## Available Scripts
 
